@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    justify-content: space-between;
 
     border-radius: 10px;
     height: 250px;
@@ -69,7 +70,16 @@
       display: grid;
       gap: 10px;
       padding: 10px;
-      column-gap: 5px;
+      column-gap: 30px;
+
+      .summary-header {
+        color: $neutral-dark-gray-blue;
+        font-weight: bold;
+      }
+      .highlight {
+        color: $neutral-light-lavender;
+        font-weight: bold;
+      }
 
       .item1 {
         display: flex;
@@ -78,6 +88,7 @@
         grid-column-end: 3;
         padding: 10px;
         gap: 10px;
+        color: $primary-light-red;
       }
 
       .item2 {
@@ -86,7 +97,7 @@
         grid-column-start: 3;
         grid-column-end: 3;
         padding: 10px;
-        gap: 5px;
+        gap: 10px;
       }
 
       .item3 {
@@ -96,6 +107,7 @@
         grid-column-end: 3;
         padding: 10px;
         gap: 10px;
+        color: $primary-orangey-yellow;
       }
 
       .item4 {
@@ -104,7 +116,7 @@
         grid-column-start: 3;
         grid-column-end: 3;
         padding: 10px;
-        gap: 5px;
+        gap: 10px;
       }
 
       .item5 {
@@ -114,6 +126,7 @@
         grid-column-end: 3;
         padding: 10px;
         gap: 10px;
+        color: $primary-green-teal;
       }
 
       .item6 {
@@ -131,6 +144,7 @@
         grid-column-end: 3;
         padding: 10px;
         gap: 10px;
+        color: $primary-cobalt-blue;
       }
       .item8 {
         display: flex;
@@ -140,10 +154,18 @@
         padding: 10px;
         gap: 10px;
       }
+    }
 
-      .summary-footer {
-        grid-column-start: 2;
-        grid-column-end: 3;
+    .summary-footer {
+      display: flex;
+      justify-content: center;
+      .summary-button {
+        background-color: $neutral-dark-gray-blue;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 100px;
+        width: 200px;
+        color: white;
       }
     }
   }

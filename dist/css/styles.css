@@ -146,6 +146,7 @@ table {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  justify-content: space-between;
   border-radius: 10px;
   height: 250px;
   width: 150px;
@@ -189,7 +190,15 @@ table {
   display: grid;
   gap: 10px;
   padding: 10px;
-  column-gap: 5px;
+  column-gap: 30px;
+}
+.parent-con .summary-con .grid-container .summary-header {
+  color: hsl(224, 30%, 27%);
+  font-weight: bold;
+}
+.parent-con .summary-con .grid-container .highlight {
+  color: hsl(241, 100%, 89%);
+  font-weight: bold;
 }
 .parent-con .summary-con .grid-container .item1 {
   display: flex;
@@ -198,6 +207,7 @@ table {
   grid-column-end: 3;
   padding: 10px;
   gap: 10px;
+  color: hsl(0, 100%, 67%);
 }
 .parent-con .summary-con .grid-container .item2 {
   display: flex;
@@ -205,7 +215,7 @@ table {
   grid-column-start: 3;
   grid-column-end: 3;
   padding: 10px;
-  gap: 5px;
+  gap: 10px;
 }
 .parent-con .summary-con .grid-container .item3 {
   display: flex;
@@ -214,6 +224,7 @@ table {
   grid-column-end: 3;
   padding: 10px;
   gap: 10px;
+  color: hsl(39, 100%, 56%);
 }
 .parent-con .summary-con .grid-container .item4 {
   display: flex;
@@ -221,7 +232,7 @@ table {
   grid-column-start: 3;
   grid-column-end: 3;
   padding: 10px;
-  gap: 5px;
+  gap: 10px;
 }
 .parent-con .summary-con .grid-container .item5 {
   display: flex;
@@ -230,6 +241,7 @@ table {
   grid-column-end: 3;
   padding: 10px;
   gap: 10px;
+  color: hsl(166, 100%, 37%);
 }
 .parent-con .summary-con .grid-container .item6 {
   display: flex;
@@ -246,6 +258,7 @@ table {
   grid-column-end: 3;
   padding: 10px;
   gap: 10px;
+  color: hsl(234, 85%, 45%);
 }
 .parent-con .summary-con .grid-container .item8 {
   display: flex;
@@ -255,9 +268,17 @@ table {
   padding: 10px;
   gap: 10px;
 }
-.parent-con .summary-con .grid-container .summary-footer {
-  grid-column-start: 2;
-  grid-column-end: 3;
+.parent-con .summary-con .summary-footer {
+  display: flex;
+  justify-content: center;
+}
+.parent-con .summary-con .summary-footer .summary-button {
+  background-color: hsl(224, 30%, 27%);
+  padding: 12px 24px;
+  border: none;
+  border-radius: 100px;
+  width: 200px;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
