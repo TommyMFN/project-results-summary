@@ -1,9 +1,19 @@
+@media (min-width: 1440px) {
+  /* CSS styles for desktop screens with a width of 1440px or larger */
+  .container {
+    width: 1440px; /* Set the width of your container to 1440px */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+}
+
 .parent-con {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  border: 6.25rem;
+  border-radius: 100%;
 
   .results-con {
     display: flex;
@@ -24,13 +34,12 @@
     );
 
     h3 {
-      margin: 10px;
       color: $neutral-pale-blue;
     }
 
     .score-circle {
       h1 {
-        font-size: 50px;
+        font-size: 3.125rem;
         color: white;
       }
 
@@ -61,11 +70,14 @@
 
     p {
       color: $neutral-pale-blue;
-      font-size: 10px;
+      font-size: 0.625rem;
     }
   }
 
   .summary-con {
+    display: flex;
+    flex-direction: column;
+
     .grid-container {
       display: grid;
       gap: 10px;
@@ -167,6 +179,21 @@
         width: 200px;
         color: white;
       }
+    }
+  }
+}
+
+/* New media query for mobile screens */
+@media (max-width: 375px) {
+  .parent-con {
+    display: flex;
+    flex-direction: column;
+    .results-con {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      border-bottom-left-radius: 20%;
+      border-bottom-right-radius: 20%;
     }
   }
 }
