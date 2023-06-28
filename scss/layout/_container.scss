@@ -26,6 +26,7 @@
     height: 250px;
     width: 150px;
     margin: 10px;
+    margin-right: 0px;
     padding: 25px;
     background-image: linear-gradient(
       to bottom,
@@ -71,13 +72,16 @@
     p {
       color: $neutral-pale-blue;
       font-size: 0.625rem;
+      font-weight: 500;
     }
   }
 
   .summary-con {
     display: flex;
     flex-direction: column;
-
+    box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.084);
+    border-bottom-right-radius: 10px;
+    background-color: rgb(255, 255, 255);
     .grid-container {
       display: grid;
       gap: 10px;
@@ -86,7 +90,7 @@
 
       .summary-header {
         color: $neutral-dark-gray-blue;
-        font-weight: bold;
+        font-weight: 700;
       }
       .highlight {
         color: $neutral-light-lavender;
@@ -101,6 +105,7 @@
         padding: 10px;
         gap: 10px;
         color: $primary-light-red;
+        font-weight: bold;
       }
 
       .item2 {
@@ -110,6 +115,8 @@
         grid-column-end: 3;
         padding: 10px;
         gap: 10px;
+        font-weight: bold;
+        color: $neutral-dark-gray-blue;
       }
 
       .item3 {
@@ -120,6 +127,7 @@
         padding: 10px;
         gap: 10px;
         color: $primary-orangey-yellow;
+        font-weight: bold;
       }
 
       .item4 {
@@ -129,6 +137,8 @@
         grid-column-end: 3;
         padding: 10px;
         gap: 10px;
+        font-weight: bold;
+        color: $neutral-dark-gray-blue;
       }
 
       .item5 {
@@ -139,6 +149,7 @@
         padding: 10px;
         gap: 10px;
         color: $primary-green-teal;
+        font-weight: bold;
       }
 
       .item6 {
@@ -148,6 +159,8 @@
         grid-column-end: 3;
         padding: 10px;
         gap: 10px;
+        font-weight: bold;
+        color: $neutral-dark-gray-blue;
       }
       .item7 {
         display: flex;
@@ -157,6 +170,7 @@
         padding: 10px;
         gap: 10px;
         color: $primary-cobalt-blue;
+        font-weight: bold;
       }
       .item8 {
         display: flex;
@@ -165,12 +179,19 @@
         grid-column-end: 3;
         padding: 10px;
         gap: 10px;
+        font-weight: bold;
+        color: $neutral-dark-gray-blue;
       }
     }
 
     .summary-footer {
       display: flex;
       justify-content: center;
+      padding: 3px;
+      margin: 10px;
+      border-style: dotted;
+      border-color: black;
+
       .summary-button {
         background-color: $neutral-dark-gray-blue;
         padding: 12px 24px;
@@ -178,6 +199,7 @@
         border-radius: 100px;
         width: 200px;
         color: white;
+        font-weight: 700;
       }
     }
   }

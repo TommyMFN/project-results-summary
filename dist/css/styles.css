@@ -160,6 +160,7 @@ table {
   height: 250px;
   width: 150px;
   margin: 10px;
+  margin-right: 0px;
   padding: 25px;
   background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
@@ -193,10 +194,14 @@ table {
 .parent-con .results-con p {
   color: hsl(221, 100%, 96%);
   font-size: 0.625rem;
+  font-weight: 500;
 }
 .parent-con .summary-con {
   display: flex;
   flex-direction: column;
+  box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.084);
+  border-bottom-right-radius: 10px;
+  background-color: rgb(255, 255, 255);
 }
 .parent-con .summary-con .grid-container {
   display: grid;
@@ -206,7 +211,7 @@ table {
 }
 .parent-con .summary-con .grid-container .summary-header {
   color: hsl(224, 30%, 27%);
-  font-weight: bold;
+  font-weight: 700;
 }
 .parent-con .summary-con .grid-container .highlight {
   color: hsl(241, 100%, 89%);
@@ -220,6 +225,7 @@ table {
   padding: 10px;
   gap: 10px;
   color: hsl(0, 100%, 67%);
+  font-weight: bold;
 }
 .parent-con .summary-con .grid-container .item2 {
   display: flex;
@@ -228,6 +234,8 @@ table {
   grid-column-end: 3;
   padding: 10px;
   gap: 10px;
+  font-weight: bold;
+  color: hsl(224, 30%, 27%);
 }
 .parent-con .summary-con .grid-container .item3 {
   display: flex;
@@ -237,6 +245,7 @@ table {
   padding: 10px;
   gap: 10px;
   color: hsl(39, 100%, 56%);
+  font-weight: bold;
 }
 .parent-con .summary-con .grid-container .item4 {
   display: flex;
@@ -245,6 +254,8 @@ table {
   grid-column-end: 3;
   padding: 10px;
   gap: 10px;
+  font-weight: bold;
+  color: hsl(224, 30%, 27%);
 }
 .parent-con .summary-con .grid-container .item5 {
   display: flex;
@@ -254,6 +265,7 @@ table {
   padding: 10px;
   gap: 10px;
   color: hsl(166, 100%, 37%);
+  font-weight: bold;
 }
 .parent-con .summary-con .grid-container .item6 {
   display: flex;
@@ -262,6 +274,8 @@ table {
   grid-column-end: 3;
   padding: 10px;
   gap: 10px;
+  font-weight: bold;
+  color: hsl(224, 30%, 27%);
 }
 .parent-con .summary-con .grid-container .item7 {
   display: flex;
@@ -271,6 +285,7 @@ table {
   padding: 10px;
   gap: 10px;
   color: hsl(234, 85%, 45%);
+  font-weight: bold;
 }
 .parent-con .summary-con .grid-container .item8 {
   display: flex;
@@ -279,10 +294,16 @@ table {
   grid-column-end: 3;
   padding: 10px;
   gap: 10px;
+  font-weight: bold;
+  color: hsl(224, 30%, 27%);
 }
 .parent-con .summary-con .summary-footer {
   display: flex;
   justify-content: center;
+  padding: 3px;
+  margin: 10px;
+  border-style: dotted;
+  border-color: black;
 }
 .parent-con .summary-con .summary-footer .summary-button {
   background-color: hsl(224, 30%, 27%);
@@ -291,6 +312,7 @@ table {
   border-radius: 100px;
   width: 200px;
   color: white;
+  font-weight: 700;
 }
 
 /* New media query for mobile screens */
