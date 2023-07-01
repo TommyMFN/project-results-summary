@@ -162,7 +162,7 @@ table {
   flex-direction: column;
   justify-content: center;
   align-self: center;
-  font-size: 10px;
+  font-size: 0.625rem;
   border-radius: 50%;
   padding: 10px;
   text-align: center;
@@ -176,7 +176,7 @@ table {
 }
 .parent-con .results-con h2 {
   margin: 10px;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: white;
 }
 .parent-con .results-con p {
