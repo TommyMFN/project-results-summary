@@ -196,3 +196,13 @@
     }
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .parent-con {
+    flex-direction: column;
+
+    .results-con {
+      width: 100%;
+    }
+  }
+}

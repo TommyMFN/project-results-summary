@@ -308,51 +308,11 @@ table {
   font-weight: 700;
 }
 
-@media (max-width: 375px) {
-  /* CSS code for mobile view */
-  /* Reset styles and other CSS rules for mobile view */
-  /* Add specific styles for mobile view */
+@media only screen and (max-width: 375px) {
   .parent-con {
     flex-direction: column;
-    height: auto;
-    border: none;
-  }
-  .parent-con .results-con,
-  .parent-con .summary-con {
-    width: 100%;
-    margin: 10px 0;
   }
   .parent-con .results-con {
-    height: auto;
-  }
-  .parent-con .results-con .score-circle {
-    font-size: 8px;
-    width: 80px;
-    height: 80px;
-  }
-  .parent-con .results-con .score-circle h1 {
-    font-size: 2.5rem;
-  }
-  .parent-con .results-con h2,
-  .parent-con .results-con p {
-    font-size: 16px;
-  }
-  .parent-con .summary-con .grid-container {
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 15px;
-  }
-  .parent-con .summary-con .grid-container .item1,
-  .parent-con .summary-con .grid-container .item2,
-  .parent-con .summary-con .grid-container .item3,
-  .parent-con .summary-con .grid-container .item4,
-  .parent-con .summary-con .grid-container .item5,
-  .parent-con .summary-con .grid-container .item6,
-  .parent-con .summary-con .grid-container .item7,
-  .parent-con .summary-con .grid-container .item8 {
-    grid-column-start: auto;
-    grid-column-end: auto;
-  }
-  .parent-con .summary-con .summary-footer .summary-button {
     width: 100%;
   }
 }
