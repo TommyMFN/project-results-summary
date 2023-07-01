@@ -13,9 +13,9 @@
     text-align: center;
     justify-content: space-between;
     border-radius: 10px;
-    margin: 10px;
+    margin: 0.625rem;
     margin-right: 0px;
-    padding: 25px;
+    padding: 1.563rem;
     background-image: linear-gradient(
       to bottom,
       $gradient-light-state-blue-bg,
@@ -38,7 +38,7 @@
       align-self: center;
       font-size: 0.625rem;
       border-radius: 50%;
-      padding: 10px;
+      padding: 0.625;
       text-align: center;
       font-family: "Hanken Grotesk", sans-serif;
       color: $neutral-pale-blue;
@@ -50,7 +50,7 @@
     }
 
     h2 {
-      margin: 10px;
+      margin: 0.625rem;
       font-size: 1.25rem;
       color: white;
     }
@@ -71,7 +71,7 @@
     .grid-container {
       display: grid;
       gap: 10px;
-      padding: 10px;
+      padding: 0.625rem;
       column-gap: 30px;
 
       .summary-header {
@@ -88,7 +88,7 @@
         align-items: center;
         grid-column-start: 1;
         grid-column-end: 3;
-        padding: 10px;
+        padding: 0.625rem;
         gap: 10px;
         color: $primary-light-red;
         font-weight: bold;
@@ -110,7 +110,7 @@
         align-items: center;
         grid-column-start: 1;
         grid-column-end: 3;
-        padding: 10px;
+        padding: 0.625rem;
         gap: 10px;
         color: $primary-orangey-yellow;
         font-weight: bold;
@@ -121,7 +121,7 @@
         align-items: center;
         grid-column-start: 3;
         grid-column-end: 3;
-        padding: 10px;
+        padding: 0.625rem;
         gap: 10px;
         font-weight: bold;
         color: $neutral-dark-gray-blue;
@@ -132,7 +132,7 @@
         align-items: center;
         grid-column-start: 1;
         grid-column-end: 3;
-        padding: 10px;
+        padding: 0.625rem;
         gap: 10px;
         color: $primary-green-teal;
         font-weight: bold;
@@ -143,7 +143,7 @@
         align-items: center;
         grid-column-start: 3;
         grid-column-end: 3;
-        padding: 10px;
+        padding: 0.625rem;
         gap: 10px;
         font-weight: bold;
         color: $neutral-dark-gray-blue;
@@ -153,7 +153,7 @@
         align-items: center;
         grid-column-start: 1;
         grid-column-end: 3;
-        padding: 10px;
+        padding: 0.625rem;
         gap: 10px;
         color: $primary-cobalt-blue;
         font-weight: bold;
@@ -163,7 +163,7 @@
         align-items: center;
         grid-column-start: 3;
         grid-column-end: 3;
-        padding: 10px;
+        padding: 0.625rem;
         gap: 10px;
         font-weight: bold;
         color: $neutral-dark-gray-blue;
@@ -173,14 +173,14 @@
     .summary-footer {
       display: flex;
       justify-content: center;
-      padding: 3px;
-      margin: 10px;
+      padding: 0.188rem;
+      margin: 0.625rem;
       border-style: dotted;
       border-color: black;
 
       .summary-button {
         background-color: $neutral-dark-gray-blue;
-        padding: 12px 24px;
+        padding: 0.75rem 1.5rem;
         border: none;
         border-radius: 100px;
 

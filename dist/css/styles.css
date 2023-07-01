@@ -149,9 +149,9 @@ table {
   text-align: center;
   justify-content: space-between;
   border-radius: 10px;
-  margin: 10px;
+  margin: 0.625rem;
   margin-right: 0px;
-  padding: 25px;
+  padding: 1.563rem;
   background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 .parent-con .results-con h3 {
@@ -164,7 +164,7 @@ table {
   align-self: center;
   font-size: 0.625rem;
   border-radius: 50%;
-  padding: 10px;
+  padding: 0.625;
   text-align: center;
   font-family: "Hanken Grotesk", sans-serif;
   color: hsl(221, 100%, 96%);
@@ -175,7 +175,7 @@ table {
   color: white;
 }
 .parent-con .results-con h2 {
-  margin: 10px;
+  margin: 0.625rem;
   font-size: 1.25rem;
   color: white;
 }
@@ -194,7 +194,7 @@ table {
 .parent-con .summary-con .grid-container {
   display: grid;
   gap: 10px;
-  padding: 10px;
+  padding: 0.625rem;
   column-gap: 30px;
 }
 .parent-con .summary-con .grid-container .summary-header {
@@ -210,7 +210,7 @@ table {
   align-items: center;
   grid-column-start: 1;
   grid-column-end: 3;
-  padding: 10px;
+  padding: 0.625rem;
   gap: 10px;
   color: hsl(0, 100%, 67%);
   font-weight: bold;
@@ -230,7 +230,7 @@ table {
   align-items: center;
   grid-column-start: 1;
   grid-column-end: 3;
-  padding: 10px;
+  padding: 0.625rem;
   gap: 10px;
   color: hsl(39, 100%, 56%);
   font-weight: bold;
@@ -240,7 +240,7 @@ table {
   align-items: center;
   grid-column-start: 3;
   grid-column-end: 3;
-  padding: 10px;
+  padding: 0.625rem;
   gap: 10px;
   font-weight: bold;
   color: hsl(224, 30%, 27%);
@@ -250,7 +250,7 @@ table {
   align-items: center;
   grid-column-start: 1;
   grid-column-end: 3;
-  padding: 10px;
+  padding: 0.625rem;
   gap: 10px;
   color: hsl(166, 100%, 37%);
   font-weight: bold;
@@ -260,7 +260,7 @@ table {
   align-items: center;
   grid-column-start: 3;
   grid-column-end: 3;
-  padding: 10px;
+  padding: 0.625rem;
   gap: 10px;
   font-weight: bold;
   color: hsl(224, 30%, 27%);
@@ -270,7 +270,7 @@ table {
   align-items: center;
   grid-column-start: 1;
   grid-column-end: 3;
-  padding: 10px;
+  padding: 0.625rem;
   gap: 10px;
   color: hsl(234, 85%, 45%);
   font-weight: bold;
@@ -280,7 +280,7 @@ table {
   align-items: center;
   grid-column-start: 3;
   grid-column-end: 3;
-  padding: 10px;
+  padding: 0.625rem;
   gap: 10px;
   font-weight: bold;
   color: hsl(224, 30%, 27%);
@@ -288,14 +288,14 @@ table {
 .parent-con .summary-con .summary-footer {
   display: flex;
   justify-content: center;
-  padding: 3px;
-  margin: 10px;
+  padding: 0.188rem;
+  margin: 0.625rem;
   border-style: dotted;
   border-color: black;
 }
 .parent-con .summary-con .summary-footer .summary-button {
   background-color: hsl(224, 30%, 27%);
-  padding: 12px 24px;
+  padding: 0.75rem 1.5rem;
   border: none;
   border-radius: 100px;
   color: white;
