@@ -1,27 +1,27 @@
-// Primary Colors
-$primary-light-red: hsl(0, 100%, 67%);
-$primary-orangey-yellow: hsl(39, 100%, 56%);
-$primary-green-teal: hsl(166, 100%, 37%);
-$primary-cobalt-blue: hsl(234, 85%, 45%);
+$clr-primary-hsl-400: 252, 100%, 67%;
+$clr-primary-hsl-500: 256, 72%, 46%;
+$clr-secondary-hsl-400: 241, 81%, 54%;
+$clr-secondary-hsl-500: 241, 72%, 46%;
 
-// Gradients
-$gradient-light-state-blue-bg: hsl(252, 100%, 67%);
-$gradient-light-royal-blue-bg: hsl(241, 81%, 54%);
-$gradient-violet-blue-circle: hsla(256, 72%, 46%, 1);
-$gradient-persian-blue-circle: hsla(241, 72%, 46%, 0);
+$clr-neutral-hsl-100: 0, 0%, 100%;
+$clr-neutral-hsl-200: 221, 100%, 96%;
+$clr-neutral-hsl-300: 241, 100%, 89%;
+$clr-neutral-hsl-700: 224, 30%, 27%;
 
-// Neutral Colors
-$neutral-white: hsl(0, 0%, 100%);
-$neutral-pale-blue: hsl(221, 100%, 96%);
-$neutral-light-lavender: hsl(241, 100%, 89%);
-$neutral-dark-gray-blue: hsl(224, 30%, 27%);
+$clr-neutral-100: hsl($clr-neutral-hsl-100);
+$clr-neutral-200: hsl($clr-neutral-hsl-200);
+$clr-neutral-300: hsl($clr-neutral-hsl-300);
+$clr-neutral-700: hsl($clr-neutral-hsl-700);
 
-// Fonts
-$font-styles: (
-  family: "Hanken Grotesk",
-  weights: (
-    500,
-    700,
-    800,
-  ),
-);
+$font-family-default: "HankenGrotesk", sans-serif;
+
+$fw-regular: 500;
+$fw-bold: 700;
+$fw-black: 800;
+
+$fs-400: 1.125rem;
+$fs-500: 1.25rem;
+$fs-600: 1.5rem;
+$fs-700: 1.75rem;
+$fs-800: 2rem;
+$fs-900: 5rem;
