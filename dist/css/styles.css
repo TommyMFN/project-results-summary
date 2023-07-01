@@ -139,7 +139,6 @@ table {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   border: 6.25rem;
   border-radius: 100%;
 }
@@ -150,8 +149,6 @@ table {
   text-align: center;
   justify-content: space-between;
   border-radius: 10px;
-  height: 250px;
-  width: 150px;
   margin: 10px;
   margin-right: 0px;
   padding: 25px;
@@ -169,8 +166,6 @@ table {
   border-radius: 50%;
   padding: 10px;
   text-align: center;
-  width: 100px;
-  height: 100px;
   font-family: "Hanken Grotesk", sans-serif;
   color: hsl(221, 100%, 96%);
   background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
@@ -303,18 +298,8 @@ table {
   padding: 12px 24px;
   border: none;
   border-radius: 100px;
-  width: 200px;
   color: white;
   font-weight: 700;
-}
-
-@media only screen and (max-width: 375px) {
-  .parent-con {
-    flex-direction: column;
-  }
-  .parent-con .results-con {
-    width: 100%;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */
