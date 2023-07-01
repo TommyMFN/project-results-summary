@@ -44,4 +44,15 @@
   --fs-900: 5rem;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+}
+
 /*# sourceMappingURL=styles.css.map */
