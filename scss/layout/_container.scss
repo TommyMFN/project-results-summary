@@ -1,198 +1,56 @@
-.parent-con {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border: 6.25rem;
-  border-radius: 100%;
-  margin: 12rem; /* center everything in the middle */
+@font-face {
+  font-family: "HankenGrotesk";
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("assets/fonts/HankenGrotesk-VariableFont_wght.ttf")
+    format("truetype");
+}
 
-  .results-con {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    justify-content: space-between;
-    border-radius: 10px;
-    margin: 0.625rem;
-    margin-right: 0px;
-    padding: 1.563rem;
-    background-image: linear-gradient(
-      to bottom,
-      $gradient-light-state-blue-bg,
-      $gradient-light-royal-blue-bg
-    );
+:root {
+  --clr-primary-hsl-400: 252, 100%, 67%;
+  --clr-primary-hsl-500: 256, 72%, 46%;
+  --clr-secondary-hsl-400: 241, 81%, 54%;
+  --clr-secondary-hsl-500: 241, 72%, 46%;
 
-    h1 {
-      margin-bottom: 2.5rem;
-    }
+  --clr-neutral-hsl-100: 0, 0%, 100%;
+  --clr-neutral-hsl-200: 221, 100%, 96%;
+  --clr-neutral-hsl-300: 241, 100%, 89%;
+  --clr-neutral-hsl-700: 224, 30%, 27%;
 
-    .score-circle {
-      margin-bottom: 2.063rem;
-      h1 {
-        font-size: 3.125rem;
-        color: white;
-      }
+  --clr-neutral-100: hsl(var(--clr-neutral-hsl-100));
+  --clr-neutral-200: hsl(var(--clr-neutral-hsl-200));
+  --clr-neutral-300: hsl(var(--clr-neutral-hsl-300));
+  --clr-neutral-700: hsl(var(--clr-neutral-hsl-700));
 
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-self: center;
-      font-size: 0.625rem;
-      border-radius: 50%;
-      padding: 0.625;
-      text-align: center;
-      font-family: "Hanken Grotesk", sans-serif;
-      color: $neutral-pale-blue;
-      background-image: linear-gradient(
-        to bottom,
-        $gradient-light-state-blue-bg,
-        $gradient-light-royal-blue-bg
-      );
-    }
+  --clr-primary-400: hsl(var(--clr-primary-hsl-400));
+  --clr-primary-500: hsla(var(--clr-primary-hsl-500));
+  --clr-secondary-400: hsl(var(--clr-secondary-hsl-400));
 
-    .great {
-      margin-bottom: 1.75rem;
-    }
+  --gradient-primary: linear-gradient(
+    var(--clr-primary-400),
+    var(--clr-secondary-400)
+  );
 
-    h2 {
-      margin: 0.625rem;
-      font-size: 1.25rem;
-      color: white;
-    }
+  --gradient-to-transparent: linear-gradient(
+    var(--clr-primary-500),
+    hsl(var(--clr-secondary-hsl-500), 0)
+  );
 
-    p {
-      color: $neutral-pale-blue;
-      font-size: 0.625rem;
-      font-weight: 500;
-    }
-  }
+  --clr-accent-1: 0, 100%, 67%;
+  --clr-accent-2: 39, 100%, 56%;
+  --clr-accent-3: 166, 100%, 37%;
+  --clr-accent-4: 234, 85%, 45%;
 
-  .summary-con {
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.084);
-    border-bottom-right-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    .grid-container {
-      display: grid;
-      gap: 10px;
-      padding: 0.625rem;
-      column-gap: 30px;
+  --font-family-default: "HankenGrotesk", sans-serif;
 
-      .summary-header {
-        color: $neutral-dark-gray-blue;
-        font-weight: 700;
-      }
-      .highlight {
-        color: $neutral-light-lavender;
-        font-weight: bold;
-      }
+  --fw-regular: 500;
+  --fw-bold: 700;
+  --fw-black: 800;
 
-      .item1 {
-        display: flex;
-        align-items: center;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        padding: 0.625rem;
-        gap: 10px;
-        color: $primary-light-red;
-        font-weight: bold;
-      }
-
-      .item2 {
-        display: flex;
-        align-items: center;
-        grid-column-start: 3;
-        grid-column-end: 3;
-        padding: 10px;
-        gap: 10px;
-        font-weight: bold;
-        color: $neutral-dark-gray-blue;
-      }
-
-      .item3 {
-        display: flex;
-        align-items: center;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        padding: 0.625rem;
-        gap: 10px;
-        color: $primary-orangey-yellow;
-        font-weight: bold;
-      }
-
-      .item4 {
-        display: flex;
-        align-items: center;
-        grid-column-start: 3;
-        grid-column-end: 3;
-        padding: 0.625rem;
-        gap: 10px;
-        font-weight: bold;
-        color: $neutral-dark-gray-blue;
-      }
-
-      .item5 {
-        display: flex;
-        align-items: center;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        padding: 0.625rem;
-        gap: 10px;
-        color: $primary-green-teal;
-        font-weight: bold;
-      }
-
-      .item6 {
-        display: flex;
-        align-items: center;
-        grid-column-start: 3;
-        grid-column-end: 3;
-        padding: 0.625rem;
-        gap: 10px;
-        font-weight: bold;
-        color: $neutral-dark-gray-blue;
-      }
-      .item7 {
-        display: flex;
-        align-items: center;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        padding: 0.625rem;
-        gap: 10px;
-        color: $primary-cobalt-blue;
-        font-weight: bold;
-      }
-      .item8 {
-        display: flex;
-        align-items: center;
-        grid-column-start: 3;
-        grid-column-end: 3;
-        padding: 0.625rem;
-        gap: 10px;
-        font-weight: bold;
-        color: $neutral-dark-gray-blue;
-      }
-    }
-
-    .summary-footer {
-      display: flex;
-      justify-content: center;
-      padding: 0.188rem;
-      margin: 0.625rem;
-      border-style: dotted;
-      border-color: black;
-
-      .summary-button {
-        background-color: $neutral-dark-gray-blue;
-        padding: 0.75rem 1.5rem;
-        border: none;
-        border-radius: 100px;
-
-        color: white;
-        font-weight: 700;
-      }
-    }
-  }
+  --fs-400: 1.125rem;
+  --fs-500: 1.25rem;
+  --fs-600: 1.5rem;
+  --fs-700: 1.75rem;
+  --fs-800: 2rem;
+  --fs-900: 5rem;
 }
